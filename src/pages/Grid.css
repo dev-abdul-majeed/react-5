@@ -1,0 +1,53 @@
+.cards-grid{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  background-color: #ffffff90;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #00a558;
+}
+
+.searchTerm:focus{
+  color: #16a4f6;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00434c89;
+  background: #008da0;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  margin-top: 30px;
+  width: 80%;
+  left: 50%;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 30px;
+
+}
